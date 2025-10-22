@@ -1,0 +1,31 @@
+module 1
+-3 principles of OOP
+-lexical issues 
+-operators 
+-1D n 2D array
+-addition of 2 matrices pgm
+
+module 2
+-stack pgm
+-employee pgm
+-this, static keyword
+-constructors
+-access specifiers
+
+module 3
+-super keyword
+-overloading n overriding 
+-resizable pgm
+-area pgm shapes
+
+module 4
+-package n pgm
+-exception, exception handling block, types
+-zero division pgm
+-try, catch, throw, throws, finally
+
+module 5
+-enumerations, value() and values of() metods
+-autoboxing n unboxing 
+-my thread pgm
+-type wrappers 

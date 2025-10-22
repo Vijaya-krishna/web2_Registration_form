@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Application Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Online Application Form</h2>
+        <form id="regForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="course">Select Course</label>
+            <select id="course" name="course" required>
+                <option value="">-- Select Course --</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Science">Information Science</option>
+                <option value="AI & Data Science">AI & Data Science</option>
+                <option value="Cyber Security">Cyber Security</option>
+            </select>
+            <button type="submit" id="submitBtn">Submit Application</button>
+        </form>
+        
+
+        <div id="result"></div>
+    </div>
+
+    <footer class="main-footer">
+        <p>Vijaya Krishna | CSE | C | 5th Sem | 2025-26 | Jyothy Institute of Technology</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
